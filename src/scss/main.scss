@@ -1421,7 +1421,7 @@ li:hover ul#submenu {
       }
 
       ul {
-        list-style-image: url("/assets/images/check-list.png");
+        list-style-image: url("assets/images/check-list.png");
         padding-left: 25px;
         margin-top: $mtop-45;
         li {
@@ -1677,33 +1677,33 @@ blockquote .small:before, blockquote footer:before, blockquote small:before {
 
 .slider-nav {
   .slick-next:focus {
-    background-image: url('/assets/images/right-arrow-t.png');
+    background-image: url('assets/images/right-arrow-t.png');
   }
   .slick-next:hover {
-    background-image: url('/assets/images/right-arrow-t.png');
+    background-image: url('assets/images/right-arrow-t.png');
   }
 }
 
 .slider-nav {
   .slick-prev:focus {
-    background-image: url('/assets/images/left-arrow-t.png');
+    background-image: url('assets/images/left-arrow-t.png');
   }
 
   .slick-prev:hover {
-    background-image: url('/assets/images/left-arrow-t.png');
+    background-image: url('assets/images/left-arrow-t.png');
   }
 }
 
 .slider-nav {
   .slick-prev {
-    background-image: url('/assets/images/left-arrow-t.png');
+    background-image: url('assets/images/left-arrow-t.png');
     left: -10px;
   }
 }
 
 .slider-nav {
   .slick-next {
-    background-image: url('/assets/images/right-arrow-t.png');
+    background-image: url('assets/images/right-arrow-t.png');
     right: -10px;
   }
 }
