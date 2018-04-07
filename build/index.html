@@ -8,6 +8,92 @@
     <link rel="stylesheet" href="assets/css/style.min.css">
 </head>
 <body>
+<div class="modal fade subscr-modal" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="registration-container" style="background-image: url('assets/images/registration-bg.jpg');">
+                <div class="row flex-end-style">
+                    <div class="registration-form-container mtop-none mright-30">
+                        <h2>Записатися в Перлину</h2>
+                        <div class="separator-under-title">
+                            <hr>
+                            <img src="assets/images/shell.png" alt="img"/>
+                            <hr>
+                        </div>
+
+                        <form class="registration-form">
+                            <input type="text" placeholder="Ім'я"/>
+                            <input type="text" placeholder="Послуга"/>
+                            <input type="text" placeholder="Мобільний телефон"/>
+                            <button>Записатись</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal fade sertificate-modal" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="registration-container center-bg"
+                 style="background-image: url('assets/images/client-testim-bg.png');">
+                <div class="row flex-end-style centered-style">
+                    <div class="registration-form-container mtop-none mright-30">
+                        <p class="subtitle-under-title"><em>Залиште, будь ласка, нам свої контактні дані і ми зв’яжемося
+                            з Вами
+                            протягом дня для підтвердження даних.</em></p>
+                        <h2>Оформлення сертифіката</h2>
+                        <div class="separator-under-title">
+                            <hr>
+                            <img src="assets/images/shell.png" alt="img"/>
+                            <hr>
+                        </div>
+
+                        <form class="registration-form">
+                            <input type="text" placeholder="Ваше ім'я"/>
+                            <input type="text" placeholder="Мобільний телефон"/>
+                            <input type="text" placeholder="E-mail"/>
+                            <input type="text" placeholder="Ім’я людини, якій присвячений сертифікат"/>
+                            <textarea placeholder="Примітки"></textarea>
+                            <button>Надіслати</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal fade review-modal" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="registration-container center-bg"
+                 style="background-image: url('assets/images/client-testim-bg.png');">
+                <div class="row flex-end-style centered-style">
+                    <div class="registration-form-container mtop-none mright-30">
+                        <h2>Залишити відгук</h2>
+                        <p class="subtitle-under-title"><em>Нам дуже важлива ваша довіра, тому ми публікуємо на сайті
+                            лише правдиві відгуки.
+                            І будь - який клієнт може залишити відгук тут.</em></p>
+                        <img class="comment-icon" src="assets/images/quote.png" alt="img" />
+                        <form class="registration-form">
+                            <input type="text" placeholder="Залишити коментар"/>
+                            <input type="text" placeholder="Ім'я"/>
+                            <input type="text" placeholder="Прізвище"/>
+                            <button>Надіслати</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
 <div class="main-container">
     <div class="header-info-container">
         <div class="container">
@@ -30,17 +116,18 @@
             <div class="row">
                 <nav id="navbarMenu">
                     <div class="navbar__logo desctop-logo">
-                        <span class="logo"><a href="#"><img src="assets/images/logotype.jpg" alt="img"/> </a></span>
+                        <span class="logo"><a href="index.html"><img src="assets/images/logotype.jpg" alt="img"/> </a></span>
                     </div>
-                    <!-- <div id="brand">COMPANY</div> -->
-                    <div class="toggleMenu"><div class="navbar__logo mobile-logo">
-                        <span class="logo"><a href="#"><img src="assets/images/logotype.jpg" alt="img"/> </a></span>
-                    </div><span class="navbar-toggler-icon"></span></div>
+                    <div class="toggleMenu">
+                        <div class="navbar__logo mobile-logo">
+                            <span class="logo"><a href="index.html"><img src="assets/images/logotype.jpg" alt="img"/> </a></span>
+                        </div>
+                        <span class="navbar-toggler-icon"></span></div>
                     <ul>
-                        <li><a class="menu__link" href="#">Головна</a></li>
-                        <li class="submenu"><a class="menu__link" href="#">Послуги</a>
+                        <li><a class="menu__link" href="index.html">Головна</a></li>
+                        <li class="submenu"><a class="menu__link" href="">Послуги</a>
                             <ul>
-                                <li><a class="menu__link" href="#">Перукарські послуги</a></li>
+                                <li><a class="menu__link" href="service.html">Перукарські послуги</a></li>
                                 <li><a class="menu__link" href="#">Манікюр і педикюр</a></li>
                                 <li><a class="menu__link" href="#">Косметологи обличчя і тіла</a></li>
                                 <li><a class="menu__link" href="#">Лазерна і воскова епіляція</a></li>
@@ -48,14 +135,15 @@
                                 <li><a class="menu__link" href="#">Пірсинг та мікродермали</a></li>
                             </ul>
                         </li>
-                        <li><a class="menu__link" href="#">Про нас</a></li>
-                        <li><a class="menu__link" href="#">Блог</a></li>
-                        <li><a class="menu__link" href="#">Фотогалерея</a></li>
-                        <li><a class="menu__link" href="#">Контакти</a></li>
+                        <li><a class="menu__link" href="about.html">Про нас</a></li>
+                        <li><a class="menu__link" href="blog.html">Блог</a></li>
+                        <li><a class="menu__link" href="gallery.html">Фотогалерея</a></li>
+                        <li><a class="menu__link" href="contacts.html">Контакти</a></li>
                     </ul>
                     <div class="btn-subscribe">
-                        <button class="btn-gradient">Записатись</button>
+                        <button data-toggle="modal" data-target="#myModal1" class="btn-gradient">Записатись</button>
                     </div>
+
                 </nav>
             </div>
         </div>
@@ -374,7 +462,7 @@
                     </div>
                 </div>
 
-                <a class="response-btn" href="#">Залишити відгук</a>
+                <button data-toggle="modal" data-target="#myModal3" class="response-btn">Залишити відгук</button>
 
             </div>
         </div>
@@ -504,7 +592,8 @@
                         <h4>Здивуй близьких особливим сюрпризом</h4>
                     </div>
 
-                    <a class="sertificate-btn" href="#">Обрати сертифікат</a>
+                    <button data-toggle="modal" data-target="#myModal2" class="sertificate-btn">Обрати сертифікат
+                    </button>
                 </div>
             </div>
         </div>
