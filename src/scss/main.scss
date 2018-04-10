@@ -84,7 +84,7 @@ a:hover {
     align-items: center;
     padding: 15px 0;
     i {
-      margin-right: 10px;
+      margin-left: 10px;
     }
     a {
       margin-left: 10px;
@@ -99,6 +99,17 @@ a:hover {
   background: -webkit-linear-gradient(left, rgba(79, 172, 254, 1) 0%, rgba(0, 242, 254, 1) 100%, rgba(125, 185, 232, 1) 100%);
   background: linear-gradient(to right, rgba(79, 172, 254, 1) 0%, rgba(0, 242, 254, 1) 100%, rgba(125, 185, 232, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4facfe', endColorstr='#7db9e8', GradientType=1);
+  .text-left {
+    padding: 0;
+  }
+
+  .text-center {
+    padding: 0;
+  }
+
+  .text-right {
+    padding: 0;
+  }
 }
 
 .navbar {
