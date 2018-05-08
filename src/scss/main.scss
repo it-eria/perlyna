@@ -3022,7 +3022,9 @@ nav {
 }
 
 @media only screen and (max-width: 480px) {
-
+  .about-title-container .flex-valign h2 {
+    font-size: 36px;
+  }
   .subscr-modal .modal-dialog, .sertificate-modal .modal-dialog, .review-modal .modal-dialog {
     width: 100% !important;
     max-width: 100%;
@@ -3449,6 +3451,34 @@ form.search-form-style::after {
         }
       }
     }
+    .serificate-wrap {
+      display: flex;
+      margin-top: 40px;
+      align-items: flex-start;
+      img {
+        width: 100%;
+        max-width: 590px;
+        object-fit: contain;
+        margin-right: 40px;
+      }
+
+      .sertificate-descr {
+        p {
+          font-family: 'ProximaNovaRegular';
+          font-size: 22px;
+          color: #000;
+          font-style: normal;
+          line-height: 24px;
+          margin-bottom: 20px;
+          text-align: left;
+        }
+
+        .response-btn {
+          margin: 0;
+          float: right;
+        }
+      }
+    }
   }
 
 }
@@ -3839,6 +3869,19 @@ form.search-form-style::after {
     .slick-next, .slick-prev {
       display: none !important;
     }
+  }
+
+  .serificate-wrap {
+    flex-wrap: wrap;
+  }
+
+  .sertificate-container__wrapper .serificate-wrap img {
+    max-width: none;
+    margin-right: 0;
+  }
+
+  .sertificate-descr {
+    margin-top: 35px;
   }
 
 }
